@@ -359,9 +359,9 @@
 
 /* Toggle Theme */
 .color-scheme-button {
-  border-right: 1px solid var(--border-alt-color);
-  margin-right: 24px;
-  padding-right: 15px;
+  border-right: 0px solid var(--border-alt-color);
+  margin-right: 0px;
+  padding-right: 0px;
 
   @media (max-width: $desktop) {
     margin-right: 8px;
