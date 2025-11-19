@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function() {
   SimpleJekyllSearch({
     searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
-    json: "/search.json",
+    json: "{{ site.baseurl }}/search.json",
     searchResultTemplate: '{article}',
     noResultsText: '<div class="no-results">No results found...</div>'
   });
